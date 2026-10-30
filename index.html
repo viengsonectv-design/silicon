@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="lo">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#123f78" />
+    <meta name="description" content="SIRICON — land services, infrastructure, property development, solar power and carbon credit projects in Laos." />
+    <title>SIRICON | ສິຣິຄອນ ຈຳກັດຜູ້ດຽວ</title>
+    <link rel="icon" type="image/png" href="public/assets/siricon-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">ໄປຫາເນື້ອຫາຫຼັກ</a>
+
+    <header class="site-header">
+      <div class="nav-shell wrap">
+        <a class="brand" href="#home" aria-label="SIRICON home">
+          <img src="public/assets/siricon-logo.png" alt="SIRICON logo" />
+          <span class="brand-copy">
+            <strong>SIRICON</strong>
+            <small data-i18n="brand.sub">ສິຣິຄອນ ຈຳກັດຜູ້ດຽວ</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu" data-i18n-aria="a11y.open">
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-i18n-aria="a11y.nav">
+          <a href="#home" data-i18n="nav.home">ໜ້າຫຼັກ</a>
+          <a href="#about" data-i18n="nav.about">ກ່ຽວກັບ</a>
+          <a href="#services" data-i18n="nav.services">ບໍລິການ</a>
+          <a href="#projects" data-i18n="nav.projects">ຜົນງານ</a>
+          <a href="#contact" data-i18n="nav.contact">ຕິດຕໍ່</a>
+          <div class="mobile-nav-footer">
+            <div class="language-switch" role="group" aria-label="Choose language" data-i18n-aria="a11y.language">
+              <button type="button" data-language="lo" aria-pressed="true">ລາວ</button>
+              <button type="button" data-language="th" aria-pressed="false">ไทย</button>
+              <button type="button" data-language="en" aria-pressed="false">EN</button>
+            </div>
+            <a class="button button-primary nav-cta" href="#booking" data-i18n="nav.book">ຈອງບໍລິການ <span aria-hidden="true">↗</span></a>
+          </div>
+        </nav>
+
+        <div class="desktop-controls">
+          <div class="language-switch" role="group" aria-label="Choose language" data-i18n-aria="a11y.language">
+            <button type="button" data-language="lo" aria-pressed="true">ລາວ</button>
+            <button type="button" data-language="th" aria-pressed="false">ไทย</button>
+            <button type="button" data-language="en" aria-pressed="false">EN</button>
+          </div>
+          <a class="button button-primary nav-cta" href="#booking" data-i18n="nav.book">ຈອງບໍລິການ <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-pad" id="home">
+        <div class="hero-grid wrap">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="hero.eyebrow">ທຸລະກິດລາວ · ສ້າງຕັ້ງປີ 2017</span></p>
+            <h1 data-i18n-html="hero.title">ພັດທະນາໂຄງສ້າງ<br /><span>ເພື່ອອະນາຄົດລາວ</span></h1>
+            <p class="hero-lead" data-i18n="hero.lead">ສຳຫຼວດທີ່ດິນ, ອອກແບບ ແລະ ກໍ່ສ້າງ, ພັດທະນາອະສັງຫາ ແລະ ໂຄງການພະລັງງານສະອາດໃນ ສປປ ລາວ.</p>
+            <div class="hero-actions">
+              <a class="button button-primary button-large" href="#booking"><span data-i18n="hero.book">ປຶກສາໂຄງການຂອງທ່ານ</span><span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#projects"><span data-i18n="hero.work">ເບິ່ງຜົນງານ</span><span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-proof">
+              <div class="proof-mark" aria-hidden="true">✓</div>
+              <p><strong data-i18n="hero.proofTitle">ຄວາມຊຳນານທ້ອງຖິ່ນ, ມາດຕະຖານວິຊາຊີບ</strong><br /><span data-i18n="hero.proofText">ທີມງານລາວທີ່ເຂົ້າໃຈພື້ນທີ່ ແລະ ປະສານງານກັບຄູ່ຮ່ວມສາກົນ.</span></p>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-backdrop" aria-hidden="true"></div>
+            <figure class="hero-photo">
+              <img src="public/assets/solar-team.jpg" alt="SIRICON team visiting energy infrastructure in Laos" data-i18n-alt="hero.imageAlt" fetchpriority="high" />
+            </figure>
+            <div class="photo-label"><span class="label-dot"></span><span data-i18n="hero.photoLabel">ວຽກງານໂຄງການພະລັງງານ</span></div>
+            <div class="solar-stamp">
+              <span class="stamp-icon" aria-hidden="true">☼</span>
+              <span class="stamp-number">180 <small>MW</small></span>
+              <span class="stamp-caption" data-i18n="hero.stamp">ໂຄງການໂຊລາ · ວຽງຈັນ</span>
+            </div>
+            <div class="hero-corner" aria-hidden="true">S / 01</div>
+          </div>
+        </div>
+
+        <div class="stats-wrap wrap" aria-label="Company highlights">
+          <div class="stat"><strong>2017</strong><span data-i18n="stats.start">ເລີ່ມດຳເນີນງານ</span></div>
+          <div class="stat"><strong>2022</strong><span data-i18n="stats.registered">ຈົດທະບຽນອິດສະຫຼະ</span></div>
+          <div class="stat"><strong>180 <small>MW</small></strong><span data-i18n="stats.solar">ໂຄງການພະລັງງານໂຊລາ</span></div>
+          <div class="stat stat-link"><a href="#projects"><span data-i18n="stats.link">ຜົນງານທີ່ຄັດສັນ</span><span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="services">
+        <div class="wrap">
+          <div class="section-heading heading-row">
+            <div>
+              <p class="section-kicker" data-i18n="services.kicker">ຂອບເຂດບໍລິການ</p>
+              <h2 data-i18n="services.title">ຈາກທີ່ດິນ ສູ່ໂຄງການ</h2>
+            </div>
+            <p class="section-intro" data-i18n="services.intro">ຮວບຮວມທັກສະດ້ານທີ່ດິນ, ວິສະວະກຳ ແລະ ພະລັງງານ ເພື່ອຊ່ວຍວາງແຜນໃຫ້ໂຄງການເດີນໜ້າໄດ້.</p>
+          </div>
+          <div class="service-grid" id="service-grid"></div>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="wrap about-grid">
+          <div class="about-main">
+            <p class="section-kicker" data-i18n="about.kicker">ກ່ຽວກັບ SIRICON</p>
+            <h2 data-i18n="about.title">ບໍລິສັດລາວ ທີ່ເຕີບໂຕຄຽງຄູ່ກັບປະເທດ</h2>
+            <p class="about-lead" data-i18n="about.lead">SIRICON ເລີ່ມດຳເນີນງານພາຍໃຕ້ກຸ່ມ DDC ໃນປີ 2017 ແລະ ຈົດທະບຽນເປັນບໍລິສັດເອກະລາດໃນປີ 2022. ຈາກວຽກສຳຫຼວດທີ່ດິນ ໄດ້ຂະຫຍາຍສູ່ວຽກອອກແບບ, ກໍ່ສ້າງ ແລະ ພະລັງງານສະອາດ.</p>
+            <div class="about-tags">
+              <span data-i18n="about.tag1">ບໍລິສັດລາວ</span>
+              <span data-i18n="about.tag2">ໃບອະນຸຍາດສຳຫຼວດທີ່ດິນ</span>
+              <span data-i18n="about.tag3">ຄູ່ຮ່ວມມືສາກົນ</span>
+            </div>
+            <a class="text-link about-link" href="#contact"><span data-i18n="about.contact">ຕິດຕໍ່ທີມງານ</span><span aria-hidden="true">→</span></a>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading"><span data-i18n="about.timeline">ຫຼັກໝາຍສຳຄັນ</span><span class="timeline-rule"></span></div>
+            <div class="timeline" id="timeline"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-pad" id="projects">
+        <div class="wrap">
+          <div class="section-heading heading-row">
+            <div>
+              <p class="section-kicker" data-i18n="projects.kicker">ຜົນງານທີ່ຄັດສັນ</p>
+              <h2 data-i18n="projects.title">ໂຄງການທີ່ເຮົາພູມໃຈ</h2>
+            </div>
+            <p class="section-intro" data-i18n="projects.intro">ຕົວຢ່າງວຽກງານດ້ານສຳຫຼວດ, ກໍ່ສ້າງ, ພັດທະນາອະສັງຫາ ແລະ ພະລັງງານ.</p>
+          </div>
+          <div class="project-toolbar">
+            <div class="project-filters" id="project-filters" role="group" aria-label="Filter projects" data-i18n-aria="a11y.filters"></div>
+            <span class="project-count" id="project-count"></span>
+          </div>
+          <div class="project-grid" id="project-grid"></div>
+        </div>
+      </section>
+
+      <section class="booking section-pad" id="booking">
+        <div class="wrap booking-grid">
+          <div class="booking-copy">
+            <p class="section-kicker section-kicker-light" data-i18n="booking.kicker">ເລີ່ມຕົ້ນໂຄງການ</p>
+            <h2 data-i18n="booking.title">ບອກເຮົາວ່າທ່ານກຳລັງວາງແຜນຫຍັງ</h2>
+            <p data-i18n="booking.intro">ສົ່ງລາຍລະອຽດສັ້ນໆ ເພື່ອນັດຫາລື ຫຼື ປະສານການສຳຫຼວດໜ້າງານກັບທີມງານ.</p>
+            <div class="booking-direct">
+              <span data-i18n="booking.call">ໂທຫາພວກເຮົາ</span>
+              <a href="tel:+8562022498777">+856 20 2249 8777</a>
+              <a href="tel:+8562028996616">+856 20 2899 6616</a>
+            </div>
+            <div class="booking-note"><span aria-hidden="true">↗</span><span data-i18n="booking.note">ແບບຟອມຈະເປີດ WhatsApp ພ້ອມຮ່າງຂໍ້ຄວາມ. ທ່ານສາມາດກວດແລະກົດສົ່ງເອງໄດ້.</span></div>
+          </div>
+
+          <form class="booking-form" id="booking-form">
+            <div class="form-heading">
+              <h3 data-i18n="booking.formTitle">ຄຳຂໍນັດປຶກສາ</h3>
+              <span class="form-step">01 <i>/ 01</i></span>
+            </div>
+            <div class="form-row">
+              <label><span data-i18n="form.name">ຊື່ ແລະ ນາມສະກຸນ</span><input type="text" name="name" autocomplete="name" required placeholder="ຊື່ຂອງທ່ານ" data-i18n-placeholder="form.namePlaceholder" /></label>
+              <label><span data-i18n="form.phone">ເບີໂທຕິດຕໍ່</span><input type="tel" name="phone" autocomplete="tel" required placeholder="+856 20 ..." data-i18n-placeholder="form.phonePlaceholder" /></label>
+            </div>
+            <div class="form-row">
+              <label><span data-i18n="form.service">ບໍລິການທີ່ສົນໃຈ</span><select name="service" id="service-select" required></select></label>
+              <label><span data-i18n="form.date">ວັນທີທີ່ສະດວກ (ຖ້າມີ)</span><input type="date" name="date" /></label>
+            </div>
+            <label><span data-i18n="form.message">ລາຍລະອຽດໂຄງການ</span><textarea name="message" rows="3" placeholder="ສະຖານທີ່, ຂະໜາດ ຫຼື ຂໍ້ມູນທີ່ຢາກແຈ້ງ" data-i18n-placeholder="form.messagePlaceholder"></textarea></label>
+            <button class="button button-primary button-submit" type="submit"><span data-i18n="form.submit">ສ້າງຂໍ້ຄວາມໃນ WhatsApp</span><span aria-hidden="true">↗</span></button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="wrap contact-grid">
+          <div>
+            <p class="section-kicker" data-i18n="contact.kicker">ຕິດຕໍ່ SIRICON</p>
+            <h2 data-i18n="contact.title">ມາລົມກັນເລື່ອງໂຄງການ</h2>
+            <p class="section-intro" data-i18n="contact.intro">ຕິດຕໍ່ຫາທີມງານເພື່ອສອບຖາມບໍລິການ ຫຼື ນັດໝາຍປຶກສາໂຄງການ.</p>
+          </div>
+          <div class="contact-details">
+            <div class="contact-item"><span class="contact-icon" aria-hidden="true">↗</span><div><small data-i18n="contact.phone">ໂທລະສັບ</small><a href="tel:+8562022498777">+856 20 2249 8777</a><a href="tel:+8562028996616">+856 20 2899 6616</a></div></div>
+            <div class="contact-item"><span class="contact-icon" aria-hidden="true">@</span><div><small data-i18n="contact.email">ອີເມວ</small><a href="mailto:siriconlaos@gmail.com">siriconlaos@gmail.com</a></div></div>
+            <div class="contact-item"><span class="contact-icon" aria-hidden="true">⌖</span><div><small data-i18n="contact.address">ທີ່ຢູ່ສຳນັກງານ</small><p data-i18n="contact.addressText">ເລກທີ 777, ໜ່ວຍ 40, ບ້ານຊອກນ້ອຍ, ເມືອງໄຊເສດຖາ, ນະຄອນຫຼວງວຽງຈັນ, ສປປ ລາວ</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=No.+777+Unit+40+Xoknoy+Village+Xaysettha+Vientiane+Laos" target="_blank" rel="noreferrer"><span data-i18n="contact.map">ເປີດແຜນທີ່</span><span aria-hidden="true">↗</span></a></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-main">
+        <a class="brand footer-brand" href="#home">
+          <img src="public/assets/siricon-logo.png" alt="" />
+          <span class="brand-copy"><strong>SIRICON</strong><small data-i18n="brand.sub">ສິຣິຄອນ ຈຳກັດຜູ້ດຽວ</small></span>
+        </a>
+        <p data-i18n="footer.line">ພັດທະນາໂຄງການ ແລະ ໂອກາດໃໝ່ໆໃນລາວ.</p>
+        <a class="footer-top" href="#home"><span data-i18n="footer.top">ກັບຂຶ້ນເທິງ</span><span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="wrap footer-bottom"><span>© <span id="year">2026</span> SIRICON Sole Company Limited</span><a href="https://siricon.la" target="_blank" rel="noreferrer">www.siricon.la ↗</a></div>
+    </footer>
+  </body>
+</html>
