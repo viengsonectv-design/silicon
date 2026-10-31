@@ -96,11 +96,11 @@ const serviceData = [
 
 const timelineData = ["2017", "2022", "2023", "2026"];
 const projectData = [
-  { id: "solar", category: "energy", image: "public/assets/solar-site-map.jpg", title: "project.solarTitle", desc: "project.solarDesc", location: "location.vientiane", alt: "project.solarAlt" },
-  { id: "field", category: "survey", image: "public/assets/field-survey.jpg", title: "project.fieldTitle", desc: "project.fieldDesc", location: "location.vientiane", alt: "project.fieldAlt" },
-  { id: "friendship-bridge", category: "construction", image: "public/assets/fifth-bridge.png", title: "project.bridgeTitle", desc: "project.bridgeDesc", location: "location.bolikhamsai", alt: "project.bridgeAlt" },
-  { id: "nong-road", category: "construction", image: "public/assets/road-construction.jpeg", title: "project.roadTitle", desc: "project.roadDesc", location: "location.savannakhet", alt: "project.roadAlt" },
-  { id: "property", category: "property", image: "public/assets/property-development.png", title: "project.homeTitle", desc: "project.homeDesc", location: "location.capital", alt: "project.homeAlt" }
+  { id: "solar", category: "energy", image: "solar-site-map.jpg", title: "project.solarTitle", desc: "project.solarDesc", location: "location.vientiane", alt: "project.solarAlt" },
+  { id: "field", category: "survey", image: "field-survey.jpg", title: "project.fieldTitle", desc: "project.fieldDesc", location: "location.vientiane", alt: "project.fieldAlt" },
+  { id: "friendship-bridge", category: "construction", image: "fifth-bridge.png", title: "project.bridgeTitle", desc: "project.bridgeDesc", location: "location.bolikhamsai", alt: "project.bridgeAlt" },
+  { id: "nong-road", category: "construction", image: "road-construction.jpeg", title: "project.roadTitle", desc: "project.roadDesc", location: "location.savannakhet", alt: "project.roadAlt" },
+  { id: "property", category: "property", image: "property-development.png", title: "project.homeTitle", desc: "project.homeDesc", location: "location.capital", alt: "project.homeAlt" }
 ];
 
 const filters = ["all", "survey", "construction", "energy", "property"];
